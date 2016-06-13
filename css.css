@@ -1,0 +1,175 @@
+body
+{
+    width:100%;
+    height:100%;
+    margin-left:0;
+    margin-top:0;
+    background-color:gray;
+    margin:0 auto;
+    background: url('bg.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top:20px;
+    cursor:default;
+}
+header
+{
+    text-align:center;
+    position:absolute;
+    height:100px;
+    width:100%;
+    background: rgba(255,255,255,0.9);
+    box-shadow:1px 2px 2px gray;
+}
+nav
+{
+    height: 100px;
+    margin:0 auto;
+    width:1100px;
+    line-height: 90px;
+    white-space: nowrap;
+    font-family: "OpenSansLight", Verdana, Tahoma;
+}
+nav a
+{
+    font-size:22px;
+    color:#a81474;
+}
+article
+{
+    text-align:center;
+    position:absolute;
+    height:50px;
+    width:100%;
+    font-size:30px;
+    color:#404040;
+}
+footer
+{
+    position:absolute;
+    bottom:0;
+    height:30px;
+    width:100%;
+    padding-bottom:20px;
+    color:#404040;
+    text-align:center;
+    line-height: 50px;
+    white-space: nowrap;
+    font-size:11px;
+    font-style:italic;
+    box-shadow:1px 2px 2px gray;
+    background: rgba(255,255,255,0.9);
+}
+div#actualinfo
+{
+    position:absolute
+    width:800px;
+    height:100%;
+    margin:0 auto;
+    margin-top:125px;
+    background: rgba(255,255,255,0.9);
+    box-shadow:1px 1px 1px gray;
+    padding:15px;
+    padding-top:40px;
+    padding-bottom:40px;
+    font-size:15px;
+}
+div#welcomeinfo
+{
+    height: 70px;
+    width:800px;
+    margin:0 auto;
+    margin-top:30%;
+    border-radius:4px;
+    background: rgba(255,255,255,0.9);
+    box-shadow:1px 1px 1px gray;
+    border:1px solid #F4F4F4;
+    padding-top:10px;
+    font-weight:bold;
+    font-family: "DayRoman";
+}
+div#logotype
+{
+    background:url('logotype.png') no-repeat;
+    width:119px;
+    height:108px;
+    float:left;
+    margin-left:14%;
+    margin-right:18px;
+}
+div#motto
+{
+    margin-top:8px;
+    font-style:italic;
+    font-size:11px;
+    font-weight:normal;
+    color:#007000;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+div#offerstyle
+{
+    margin-left:38%;
+    margin-top:20px;
+    text-align:left;
+    font-style:italic;
+}
+span.title
+{
+    font-weight:bold;
+    font-size:23px;
+}
+a
+{
+    text-decoration:none;
+    color:gray;
+    text-shadow:0;
+}
+a:hover
+{
+    text-decoration:underline;
+    color:#333333;
+}
+ul, ul li {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    float: left;
+}
+
+ul a:link, ul a:visited {
+    text-decoration: none;
+    display: block;
+    width: 170px;
+    height:90px;
+    text-align: center;
+    padding: 5px;
+}
+ul a
+{
+    -webkit-transform-origin:50% 0;
+    -webkit-transition:400ms;
+    -moz-transition:400ms;
+    -o-transition:400ms;
+    transition:400ms;
+}
+ul a:hover {
+    background: rgba(168,20,116,0.9);
+    color:white;
+    -webkit-transform-origin:50% 0;
+    -webkit-transition:450ms;
+    -moz-transition:450ms;
+    -o-transition:450ms;
+    transition:450ms;
+}
+@font-face {
+    font-family: "OpenSansLight";
+    src: url(OpenSans-Light.ttf) format("truetype");
+    font-family: "DayRoman";
+    src: url(dayrom.ttf) format("truetype");
+}
